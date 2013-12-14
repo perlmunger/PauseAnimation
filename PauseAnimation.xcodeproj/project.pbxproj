@@ -18,6 +18,7 @@
 		B3BC4C1C185CE71100635FC2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3BC4C1B185CE71100635FC2 /* Default-568h@2x.png */; };
 		B3BC4C1F185CE71100635FC2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BC4C1D185CE71100635FC2 /* MainStoryboard.storyboard */; };
 		B3BC4C22185CE71100635FC2 /* MLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BC4C21185CE71100635FC2 /* MLViewController.m */; };
+		B3BC4C29185CE73C00635FC2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BC4C28185CE73C00635FC2 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		B3BC4C1E185CE71100635FC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B3BC4C20185CE71100635FC2 /* MLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLViewController.h; sourceTree = "<group>"; };
 		B3BC4C21185CE71100635FC2 /* MLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLViewController.m; sourceTree = "<group>"; };
+		B3BC4C28185CE73C00635FC2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3BC4C29185CE73C00635FC2 /* QuartzCore.framework in Frameworks */,
 				B3BC4C06185CE71100635FC2 /* UIKit.framework in Frameworks */,
 				B3BC4C08185CE71100635FC2 /* Foundation.framework in Frameworks */,
 				B3BC4C0A185CE71100635FC2 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +59,7 @@
 		B3BC4BF9185CE71100635FC2 = {
 			isa = PBXGroup;
 			children = (
+				B3BC4C28185CE73C00635FC2 /* QuartzCore.framework */,
 				B3BC4C0B185CE71100635FC2 /* PauseAnimation */,
 				B3BC4C04185CE71100635FC2 /* Frameworks */,
 				B3BC4C03185CE71100635FC2 /* Products */,
